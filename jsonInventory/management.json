@@ -1,0 +1,23 @@
+[
+
+  {
+
+    "name": "basmati",
+    "weight": "200",
+    "price": "60"
+  },
+
+  {
+    "name": "dal",
+    "weight": "300",
+    "price": "150"
+
+  },
+
+  {
+    "name": "parampara",
+    "weight": "3oo",
+    "price": "50"
+
+  }
+]

@@ -9,12 +9,17 @@ namespace jsonInventory
 {
     class Program
     {
+        public static string ManagementfilePath { get; private set; }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to JSON Inventory Data Management \n");
-            string inventoryFilePath = @"E:\\RFP\JSONInventory\\JSONsample\\Inventory.json";
+            string inventoryFilePath = @"E:\\JSON Problems\\JSON-Problems\\jsonInventory\\Inventory.json";
             JSOnMain jSOnMain = new JSOnMain();
             jSOnMain.ReadJsonFile(inventoryFilePath);
+            string ManagemenrfilePath = @"E:\\JSON Problems\\JSON-Problems\\jsonInventory\\management.json";
+           
+            jSOnMain.ReadmanagementJsonFile(ManagementfilePath);
         }
     }
 }
