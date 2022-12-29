@@ -17,7 +17,7 @@ namespace jsonInventory
             string inventoryFilePath = @"E:\\JSON Problems\\JSON-Problems\\jsonInventory\\Inventory.json";
             JSOnMain jSOnMain = new JSOnMain();
             jSOnMain.ReadJsonFile(inventoryFilePath);
-            string ManagemenrfilePath = @"E:\\JSON Problems\\JSON-Problems\\jsonInventory\\management.json";
+            string ManagementfilePath = @"E:\\JSON Problems\\JSON-Problems\\jsonInventory\\management.json";
            
             jSOnMain.ReadmanagementJsonFile(ManagementfilePath);
         }
